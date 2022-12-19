@@ -10,12 +10,14 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import {AngularFireModule} from '@angular/fire/compat'
 import { environment } from '../environments/environment';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SeriesComponent,
-    PeliculasComponent
+    PeliculasComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
